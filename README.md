@@ -66,25 +66,18 @@ Remove all spaces from a given string.
 
 **Problem:**
 
-Count how often each word appears in a given string. Print the result using loop.
+Count how often each word appears in a given string. Return dictionary that contains word and its count.
 
 **Example**
 
 	Input: "hello hello world"  
-	Output:  
-	hello: 2  
-	world: 1  
+	Output:  {"hello": 2, "world": 1}
 	
 	Input: "this is a test this is"  
-	Output:  
-	this: 2  
-	is: 2  
-	a: 1  
-	test: 1  
+	Output:  {"this": 2, "is": 2, "a": 1, "test": 1} 
 	
 	Input: "count count count"  
-	Output:  
-	count: 3  
+	Output:  {"count": 3} 
 
 
 ---
