@@ -1,26 +1,21 @@
 # You can remove 'pass' if you written code in the function 
 
 # Exercise 1
-def print_love_python():
+def count_vowels(string):
     # Write your code here
     pass
 
 # Exercise 2
-def sum_of_n_numbers(n):
+def is_palindrome(string):
     # Write your code here
     pass
 
 # Exercise 3
-def sum_of_digits(number):
+def remove_spaces(string):
     # Write your code here
     pass
 
 # Exercise 4
-def count_digits(number):
-    # Write your code here
-    pass
-
-# Exercise 5
-def print_from_five_to(n):
+def count_word_frequencies(string):
     # Write your code here
     pass
