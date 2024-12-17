@@ -1,8 +1,7 @@
-# Python LOOP
+# Python String
 
-Python Loops PPT:
-https://docs.google.com/presentation/d/1cRZd43s_xyNBLZ6vgFiUILPUMMtWDtBO/edit?usp=sharing&ouid=118175980541210638913&rtpof=true&sd=true
-
+Python String PDF:
+https://drive.google.com/file/d/1JE02xr12iIN_EY8-slrw2Wx0KqwH00pN/view?usp=sharing
 
 
 ---
@@ -11,21 +10,18 @@ https://docs.google.com/presentation/d/1cRZd43s_xyNBLZ6vgFiUILPUMMtWDtBO/edit?us
 
 **Problem:**
 
-Print “I Love Python” 10 times.
+Count the number of vowels in a given string.
 
 **Example:**
 
-	 Output:
-	 I Love Python
-	 I Love Python
-	 I Love Python
-	 I Love Python
-	 I Love Python
-	 I Love Python
-	 I Love Python
-	 I Love Python
-	 I Love Python
-  	 I Love Python
+	Input: "Hello World"  
+	Output: 3  
+	
+	Input: "Python Programming"  
+	Output: 4  
+	
+	Input: "BCDFG"  
+	Output: 0  
 
 ---
 
@@ -33,19 +29,18 @@ Print “I Love Python” 10 times.
 
 **Problem:**
 
-Find the sum of the first n numbers from 1.
+Check if a given string is a palindrome (reads the same forward and backward).
 
 **Example:**
 
-	Input: 5
-	Output: 15
- 
- 	Input: 11
-	Output: 66
- 
-  	Input: 3
-	Output: 6
-
+	Input: "madam"  
+	Output: True  
+	
+	Input: "racecar"  
+	Output: True  
+	
+	Input: "hello"  
+	Output: False  
 
 ---
 
@@ -53,70 +48,43 @@ Find the sum of the first n numbers from 1.
 
 **Problem:**
 
-Find sum of digits from number.
+Remove all spaces from a given string.
 
 **Example**
 
- 	Input: 125
-  	Output: 8
- 
-  	Input: 5
-  	Output: 5
- 
-  	Input: 1234
-  	Output: 10
+	Input: "Hello World"  
+	Output: "HelloWorld"  
+	
+	Input: "Python Programming Language"  
+	Output: "PythonProgrammingLanguage"  
+	
+	Input: "  Remove   spaces  "  
+	Output: "Removespaces"  
 ---
 
 ## Exercise 4
 
 **Problem:**
 
-Find how many digits number have.
+Count how often each word appears in a given string. Print the result using loop.
 
 **Example**
 
-	Input: 123
-	Output: 3
- 
-	Input: 9
-	Output: 1
- 
-	Input: 56741
-	Output: 5
+	Input: "hello hello world"  
+	Output:  
+	hello: 2  
+	world: 1  
+	
+	Input: "this is a test this is"  
+	Output:  
+	this: 2  
+	is: 2  
+	a: 1  
+	test: 1  
+	
+	Input: "count count count"  
+	Output:  
+	count: 3  
 
 
 ---
-
-## Exercise 5
-
-**Problem:**
-
-Print from 5 to given number.
-
-**Example**
-
-	Input: 9
-	Output: 
-	5
-	6
-	7
-	8
-	9
- 
-	Input: 7
-	Output: 
-	5
-	6
-	7
- 
-	Input: -2
-	Output: 
-	5
-	4
-	3
-	2
-	1
-	0
-	-1
-	-2
- 
